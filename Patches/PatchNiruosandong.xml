@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- <Operation Class="PatchOperationAdd">
+    <xpath>Defs/AbilityDef[defName="LeaderSpeech"]/comps/li[1]</xpath>
+    <value>
+        <sound>Niruosandong</sound>
+    </value>
+</Operation> -->
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/SoundDef[defName="Speech_Leader_Male"]/subSounds</xpath>
+    <value>
+        <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Music/Niruosandong</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/SoundDef[defName="Speech_Leader_Female"]/subSounds</xpath>
+    <value>
+        <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Music/Niruosandong</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+    </value>
+</Operation>
+
+</Patch>

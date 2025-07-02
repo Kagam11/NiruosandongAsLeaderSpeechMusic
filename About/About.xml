@@ -3,7 +3,7 @@
     <name>替换领袖演讲BGM为你若三冬</name>
     <author>kagami</author>
     <packageId>Kagami.NiruosandongAsLeaderSpeechMusic</packageId>
-    <modVersion>1.0.0.0</modVersion>
+    <modVersion>1.0.0.1</modVersion>
     <supportedVersions>
         <li>1.5</li>
     </supportedVersions>
